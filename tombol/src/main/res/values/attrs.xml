@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Tombol">
+        <attr name="icon" format="reference" />
+        <attr name="text" format="string" />
+        <attr name="tipe" format="integer">
+            <enum name="danger" value="0" />
+            <enum name="primary" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>
